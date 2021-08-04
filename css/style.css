@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-part{
+    background-image: url("../images/top-banner.png");
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.half-width .heading{
+    font-size: 40px;
+}
+
+.highlight{
+    color: orange;
+}
+
+.top-part h3{
+    font-size: 20px;
+}
+
+.half-width-one {
+    width: 40%;
+    float: left;
+    margin: 5%;
+}
+
+.half-width-two{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+}
+
+.half-width-one p{
+    text-align: justify;
+    font-size: 20px;
+    color: #919999;
+}
+.top-image{
+    width: 80%;
+}
+
+.git-button{
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+/*=========Middle Part==============*/
+
+.middle-part{
+    background-image: url("../images/dream-bg.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+}
+
+.middle-part-one{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+}
+
+.middle-part-image{
+    width: 100%;
+}
+
+.middle-part-two{
+    width: 30%;
+    float: right;
+    margin-left: 5%;
+    margin-right: 15%;
+}
+
+.middle-part-two p{
+    text-align: justify;
+}
+
+/*========experience area==========*/
+.experience-area{
+    background-image: url("../images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    position: relative;
+    height: 500px;
+}
+
+.experience-area-one{
+    //position: absolute;  /*//comment korle soira jai ken ?*/
+    width: 35%;
+    float: left;
+    margin: 0 5%;
+    background-color: white;
+    text-align: justify;
+}
+
+.box-design{
+    padding: 2%;
+    box-shadow: 10px 10px 40px gray;
+    height: 300px;
+}
+
+#box-one-color{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#box-two-color{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+/*==========footer=============*/
+
+.footer{
+    text-align: center;
+    font-size: 17px;
+    color: gray;
+}
