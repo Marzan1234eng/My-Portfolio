@@ -85,6 +85,9 @@ body{
     text-align: justify;
 }
 
+.middle-part-three{
+    display: none;
+}
 /*========experience area==========*/
 .experience-area{
     background-image: url("../images/exp-bg.png");
@@ -125,6 +128,55 @@ body{
 
 .footer{
     text-align: center;
-    font-size: 17px;
+    font-size: 15px;
     color: gray;
+}
+
+@media screen and (max-width: 430px){
+    .top-part{
+        width: 100%;
+    }
+    .half-width-one{
+        width: 100%;
+    }
+    .half-width-one p{
+        width: 90%;
+        text-align: justify;
+    }
+    .half-width-two{
+        width: 100%;
+    }
+
+    .middle-part{
+        height: 100%;
+        width: 100%;
+    }
+
+    .middle-part-one{
+        display: none;
+    }
+
+    .middle-part-two{
+        width: 90%;
+        margin: 5% 5% 10% 5%;
+    }
+
+    .middle-part-three {
+        width: 100%;
+        display: block;
+    }
+
+    .middle-part-image{
+        width: 80%;
+        margin: 5%;
+    }
+
+    .experience-area{
+        width: 100%;
+    }
+    #box-one-color , #box-two-color{
+        width: 80%;
+        margin: 5%;
+        height: 400px;
+    }
 }
