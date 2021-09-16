@@ -8,6 +8,7 @@ body{
     background-image: url("../images/top-banner.png");
     background-repeat: no-repeat;
     height: 500px;
+    margin-bottom: 50px;
 }
 
 .heading{
@@ -67,10 +68,11 @@ body{
     margin-left: 5%;
     margin-right: 5%;
     float: left;
+    position: absolute;
 }
 
 .middle-part-image{
-    width: 100%;
+    width: 90%;
 }
 
 .middle-part-two{
@@ -122,6 +124,14 @@ body{
     border-image-slice: 1;
 }
 
+@media screen and (min-width: 800px) and (max-width: 1030px){
+    .box-design{
+        height: 400px;
+    }
+    .heading{
+        font-size: 25px;
+    }
+}
 /*==========footer=============*/
 
 .footer{
